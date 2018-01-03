@@ -21,6 +21,7 @@ public class PageController {
 		return "views/home";
 	}
 
+	
 	@RequestMapping("/about")
 	public String about(Model model) {
 		/*french */
