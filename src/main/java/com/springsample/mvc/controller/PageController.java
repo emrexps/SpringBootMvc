@@ -20,7 +20,6 @@ public class PageController {
 		model.addAttribute("pageContent", message.getHomePageContent());
 		return "views/home";
 	}
-	
 	@RequestMapping("/about")
 	public String about(Model model) {
 		/*french */
